@@ -12,7 +12,7 @@
 #===================================================================================================
 
 import matplotlib as mpl
-#mpl.use('Agg')
+mpl.use('Agg')
 mpl.rcParams['font.family']='Times'
 import numpy as np
 import matplotlib.pyplot as plt

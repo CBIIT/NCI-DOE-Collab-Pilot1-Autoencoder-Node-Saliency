@@ -2,6 +2,8 @@
 # 
 #
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from ans import ans
 
@@ -39,7 +41,6 @@ lNames = ['0','1']
 #------------------------------
 targetNode = CE_idx[0]
 ind = np.arange(numBins)
-
 fig = plt.figure(figsize=(5,5))
 p1 = plt.bar(ind,g1Count[targetNode,],width,color=myred,bottom=g0Count[targetNode,],hatch='//')
 p2 = plt.bar(ind,g0Count[targetNode,],width,color=myblue)
