@@ -5,7 +5,7 @@ This ANS code contains the function that computes Autoencoder Node Saliency.
 
 
 ### Setup
-To set up the Python environment needed to train and run this model:
+To set up the Python environment needed execute the scripts of this repo:
 1. Install [conda](https://docs.conda.io/en/latest/) package manager. 
 2. Clone this repository. 
 3. Create the environment as shown below.
@@ -13,9 +13,9 @@ To set up the Python environment needed to train and run this model:
 ```bash
    conda env create -f environment.yml -n ans 
    conda activate ans 
-         ```
+```
 
-# Use
+### Use
 To include the function, import the ans module in the beginning of your Python code.
 ```
 from ans import ans
@@ -26,8 +26,7 @@ A bytecode module "ans.pyc" will be generated.
 ans.py reads in three inputs
   - A: Activation values of each sample  
   - L: Class labels of each sample
-  
-  numBins: Number of bins used in the evaluation (default = 10)
+  - numBins: Number of bins used in the evaluation (default = 10)
 
 Activation values are generated using the optimal weight and bias terms in the autoencoder. Class labels should be given in datasets. The Data folder contains the A and L values used in the example. 
   
