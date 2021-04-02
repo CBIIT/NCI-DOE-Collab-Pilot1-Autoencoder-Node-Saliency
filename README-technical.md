@@ -4,6 +4,17 @@ Autoencoder Node Saliency (ANS) measures the distribution of the latent represen
 This ANS code contains the function that computes Autoencoder Node Saliency.
 
 
+### Setup
+To set up the Python environment needed to train and run this model:
+1. Install [conda](https://docs.conda.io/en/latest/) package manager. 
+2. Clone this repository. 
+3. Create the environment as shown below.
+
+```bash
+   conda env create -f environment.yml -n ans 
+   conda activate ans 
+         ```
+
 # Use
 To include the function, import the ans module in the beginning of your Python code.
 ```
