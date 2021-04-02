@@ -23,7 +23,7 @@ from ans import ans
 A bytecode module "ans.pyc" will be generated.
 
 ### Input:
-ans.py reads in three inputs
+[ans.py](./ans.py) reads in three inputs
   - A: Activation values of each sample  
   - L: Class labels of each sample
   - numBins: Number of bins used in the evaluation (default = 10)
@@ -41,12 +41,12 @@ Activation values are generated using the optimal weight and bias terms in the a
   - g1Count: Histogram bar counts for class 1 at each node.  
 
 # Results
-Details on how to generate results described in the two papers can be found in the following two examples.
+Details on how to generate results described in the two papers can be found in the following two examples. The figures will be generated in the [Plots](./Plots) directory
 
 ### MNIST Dataset
 - Ya Ju Fan. "Autoencoder Node Saliency: Selecting Relevant Latent Representations." CoRR, abs/1711.07871. 2017. [Link to paper.](https://doi.org/10.1016/j.patcog.2018.12.015)
 
-An example of applying ANS on the MNIST dataset can be found in 
+An example of applying ANS on the MNIST dataset can be found in the script [apply_ans_mnist_01.py](./apply_ans_minist_01.py):
 
 ```
 python apply_ans_mnist_01.py
@@ -56,7 +56,7 @@ It generates the top histogram in Figure 2(a) in the paper.
 ### Normal and Cancer Cells
 - Ya Ju Fan, Jonathan E. Allen, Sam Ade Jacobs and Brian C. Van Essen. "Distinguishing between Normal and Cancer Cells Using Autoencoder Node Saliency." Second ISC HPC Applications in Precision Medicine Workshop. July 2018. [Link to paper.](https://arxiv.org/abs/1901.11152)
 
-  An example of applying ANS on cancer genome datasets can be found in
+  An example of applying ANS on cancer genome datasets can be found in the script [apply_ans_tumorNormal.py](./apply_ans_tumorNormal.py)
 
 ```
 python apply_ans_tumorNormal.py
