@@ -11,7 +11,7 @@ The repo contains two examples of scripts that process data from the popular pub
 
 ### Uniqueness: 
 The novelty of this method is discussed in this [paper](https://www.sciencedirect.com/science/article/pii/S0031320318304369?via%3Dihub). 
-To explain what the trained autoencoders have learned when being unsupervised, this uniqueness of this methods likes in ranking hidden nodes in the autoencoder according to their capability of performing a learning task, identifying the specialty nodes that reveal explanatory input features, and suggesting possible nodes that can be trimmed down for a more concise network structure.
+To explain what the trained autoencoders have learned when being unsupervised, the uniqueness of this methods lies in ranking hidden nodes in the autoencoder according to their capability of performing a learning task, identifying the specialty nodes that reveal explanatory input features, and suggesting possible nodes that can be trimmed down for a more concise network structure.
 
 ### Components: 
 * Preprocessed data sets
