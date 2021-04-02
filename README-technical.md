@@ -46,7 +46,7 @@ Details on how to generate results described in the two papers can be found in t
 ### MNIST Dataset
 - Ya Ju Fan. "Autoencoder Node Saliency: Selecting Relevant Latent Representations." CoRR, abs/1711.07871. 2017. [Link to paper.](https://doi.org/10.1016/j.patcog.2018.12.015)
 
-An example of applying ANS on the MNIST dataset can be found in the script [apply_ans_mnist_01.py](./apply_ans_minist_01.py):
+An example of applying ANS on the MNIST dataset can be found in the script [apply_ans_mnist_01.py](./apply_ans_mnist_01.py):
 
 ```
 python apply_ans_mnist_01.py
@@ -64,4 +64,4 @@ python apply_ans_tumorNormal.py
 It generates the top histogram in Figure 6 in the paper.
 
 ### Plots
-Each of the example generates three plots: the NED curves, the SNS curve and the histogram of the activation values labeled by the two classes on the best classifying node.
+Plots are generated in the [Plots](./Plots) directory. Each of the example generates three plots: the NED curves, the SNS curve and the histogram of the activation values labeled by the two classes on the best classifying node.
