@@ -41,7 +41,7 @@ Activation values are generated using the optimal weight and bias terms in the a
   - g1Count: Histogram bar counts for class 1 at each node.  
 
 ## Results
-The following sections provide links to two papers on this software and an example for each paper. The examples provide details on how to generate results described in the two papers. The figures will be generated in the [Plots](./Plots) directory.
+The following sections provide links to two publications on this software and an example for each publication. The examples provide details on how to generate results described in the two publications. The figures will be generated in the [Plots](./Plots) directory.
 
 ### MNIST Dataset
 - Ya Ju Fan. "[Autoencoder Node Saliency: Selecting Relevant Latent Representations](https://doi.org/10.1016/j.patcog.2018.12.015)." CoRR, abs/1711.07871. 2017. 
@@ -51,7 +51,7 @@ An example of applying ANS on the MNIST dataset can be found in the script [appl
 ```
 python apply_ans_mnist_01.py
 ```
-It generates the top histogram in Figure 2(a) in the paper. 
+It generates the top histogram in Figure 2(a) in the publication. 
 
 ### Normal and Cancer Cells
 - Ya Ju Fan, Jonathan E. Allen, Sam Ade Jacobs, and Brian C. Van Essen. "[Distinguishing between Normal and Cancer Cells Using Autoencoder Node Saliency](https://arxiv.org/abs/1901.11152)." Second ISC HPC Applications in Precision Medicine Workshop. July 2018. 
@@ -61,9 +61,7 @@ An example of applying ANS on cancer genome datasets can be found in the script 
 ```
 python apply_ans_tumorNormal.py
 ```
-It generates the top histogram in Figure 6 in the paper.
+It generates the top histogram in Figure 6 in the publication.
 
 ### Plots
 Plots are generated in the [Plots](./Plots) directory. Each example generates three plots: the NED curves, the SNS curve, and the histogram of the activation values labeled by the two classes on the best classifying node.
-
-&#x1F534;_**(Question: Would it be okay to replace "paper" throughout with "article" or "publication"?)**_ 
