@@ -51,7 +51,7 @@ An example of applying ANS on the MNIST dataset can be found in the script [appl
 ```
 python apply_ans_mnist_01.py
 ```
-It generates the top histogram in Figure 2(a) in the publication. 
+It generates the top histogram in Figure 3(a) in the publication. 
 
 ### Normal and Cancer Cells
 - Ya Ju Fan, Jonathan E. Allen, Sam Ade Jacobs, and Brian C. Van Essen. "[Distinguishing between Normal and Cancer Cells Using Autoencoder Node Saliency](https://arxiv.org/abs/1901.11152)." Second ISC HPC Applications in Precision Medicine Workshop. July 2018. 
